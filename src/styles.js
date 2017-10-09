@@ -8,7 +8,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-
+  layout: {
+    color: 'green'
+  },
   texto: {
     color: '#0B3B0B',
     fontSize:20,
