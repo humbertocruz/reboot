@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     backgroundColor:'transparent',
     borderColor:'transparent',
     height:'100%',
-    width:'15%',
+    width:'25%',
     marginBottom:8,
     justifyContent: 'center',
     alignItems: 'center'
@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
 
   image:{
 
-    height:40,
-    width:40,
+    height:30,
+    width:30,
 
   },
 
