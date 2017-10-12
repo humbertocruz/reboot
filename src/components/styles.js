@@ -48,10 +48,13 @@ const styles = StyleSheet.create({
   },
 
   image:{
-
     height:30,
     width:30,
+  },
 
+  logotype:{
+    height:100,
+    width:100,
   },
 
   button2:{
@@ -65,7 +68,7 @@ const styles = StyleSheet.create({
   },
 
   footer:{
-    backgroundColor: '#abfdf8',
+    backgroundColor: '#1fb2a8',
 
   },
 
