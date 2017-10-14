@@ -11,27 +11,43 @@ import {  Container,
           Icon,
           Drawer
        } from 'native-base';
+import styles from './../components/styles';
+import Sobre from './sobre';
 
-export default class Segundaria extends React.Component {
+export default class Menu extends React.Component {
 
   render() {
+    const { navigation } = this.props;
     return (
-<Container>
- <View style={{ height:Expo.Constants.statusBarHeight }} />
-  <Header style={{
-    backgroundColor: '#1fb2a8'
-  }}>
+          <Container>
+             <Header style={{
+              backgroundColor: '#1fb2a8'
+            }}>
 
-    <Body><Title>SideBar</Title></Body>
-  </Header>
-    <Content style={{
-      backgroundColor: 'white'
-    }}>
-      <View >
-        <Text>SideBar!</Text>
-      </View>
-    </Content>
-</Container>
+              <Body><Title>SideBar</Title></Body>
+            </Header>
+              <Content style={{
+                backgroundColor: 'white'
+              }}>
+
+              <View style={styles.view}>
+
+                <Text style={{
+                   fontSize:20,
+                   alignItems:'center'
+                }}>
+                Aqui devemos chamar cada pagina referente a seu botao </Text>
+
+                <Button style={styles.button2}>
+                        <Text style={styles.texto }> Meu perfil </Text>
+                </Button>
+
+                <Button style={styles.button2}>
+                      <Text style={styles.texto }> Sobre </Text>
+                </Button>
+              </View>
+              </Content>
+          </Container>
     );
   }
 }

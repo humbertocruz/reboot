@@ -9,6 +9,7 @@ import { StyleSheet, Alert, View } from 'react-native';
 import React from 'react';
 import SideBar from './../screens/sideBar';
 import Navegacao from './../navigation';
+import Rodape from './footer';
 //criando component
 export default class Cabecalho extends React.Component{
 //renderizando Cabecalho, a barra superior do App
@@ -41,7 +42,7 @@ closeDrawer = () => {
                 <Body><Title style={styles.headerTexto}>HORT-UP</Title></Body>
             </Header>
           <Navegacao/>
-     </Drawer>
+    </Drawer>
     )
   }
 }
