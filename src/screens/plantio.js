@@ -15,9 +15,9 @@ export default class Plantio extends React.Component{
     return (
     <Container>
 
-        <View style={{ height:Expo.Constants.statusBarHeight }} />
+        
 
-        <Cabecalho/>
+
 
           <View style={styles.view}>
             <TouchableOpacity style={styles.button2}>

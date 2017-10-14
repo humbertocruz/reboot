@@ -14,9 +14,9 @@ export default class Plantio extends React.Component{
   render(){
     return (
     <Container>
-      <View style={{ height:Expo.Constants.statusBarHeight }} />
+      
 
-        <Cabecalho/>
+
 
           <View style={styles.view}>
               <Text style={{fontSize:12}}>

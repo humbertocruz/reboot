@@ -23,9 +23,9 @@ export default class Plantio extends React.Component{
     const { hasCameraPermission } = this.state;
     return (
     <Container>
-      <View style={{ height:Expo.Constants.statusBarHeight }} />
+      
 
-        <Cabecalho/>
+
         <Camera style={{ flex: 1 }} type={this.state.type}>
             <View
               style={{

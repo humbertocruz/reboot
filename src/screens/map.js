@@ -50,9 +50,9 @@ render() {
   return (
     <Container>
 
-        <View style={{ height:Expo.Constants.statusBarHeight }} />
+        
 
-        <Cabecalho/>
+
 
             <MapView style={{
               flex:1,
