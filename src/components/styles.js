@@ -24,6 +24,13 @@ const styles = StyleSheet.create({
     paddingLeft:8
   },
 
+  viewSideBar: {
+    flex: 1,
+    backgroundColor: 'transparent',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
   texto: {
     color: 'white',
     fontSize:14,
