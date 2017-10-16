@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
 
   view: {
     flex: 1,
-    backgroundColor: 'transparent',
+    backgroundColor: '#f6fffe',
     alignItems: 'center',
     justifyContent: 'center',
     padding:8,

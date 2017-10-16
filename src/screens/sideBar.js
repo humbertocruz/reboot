@@ -27,7 +27,7 @@ state={
     return (
           <Container>
             <Content style={{
-                backgroundColor: '#d4fdfa'
+                backgroundColor: '#f6fffe'
               }}>
         <View style={{ height:Expo.Constants.statusBarHeight }} />
               <View style={styles.viewSideBar}>
