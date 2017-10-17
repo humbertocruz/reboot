@@ -32,6 +32,6 @@ export default class AppSetup extends React.Component {
         />
       );
     }
-    return <Cabecalho/>
+    return <LoginScreen/>
 }
 }

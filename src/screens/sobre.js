@@ -6,7 +6,6 @@ import {  Container, Content, Body } from 'native-base';
 import Rodape from './../components/footer';
 import Cabecalho from './../components/header';
 
-
 export default class Sobre extends React.Component {
 
   render(){
